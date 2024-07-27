@@ -1,0 +1,93 @@
+.App {
+  font-family: font-family: Cerebri-Sans, Helvetica, Arial, sans-serif;
+  text-align: center;
+  background: #f9f7fd;
+}
+
+body {
+  margin: 60px;
+  border: none;
+  background: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 5%);
+}
+
+form {
+  display: flex;
+  justify-content: left;
+  padding: 10px;
+  margin: 0 0 30px;
+  height: 50px;
+}
+
+h1 {
+  font-size: 38px;
+  line-height: 48px;
+  margin: 20px 0px 10px;
+  font-weight: 700;
+}
+
+.enterCity {
+  background: #f9f7fe;
+  border: none;
+  border-radius: 6px;
+  color: #27214266;
+  padding: 0px 20px;
+  width: 75%;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.btn {
+  background: #885df1;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 15px 25px;
+  margin-left: 10px;
+  max-width: 25%;
+  font-size: 16px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.currentCity {
+  display: flex;
+  justify-content: space-between;
+}
+
+.p1,
+.p2 {
+  margin: 0 0 5px;
+}
+
+.currentCity p {
+  font-weight: 500;
+  color: rgba(39, 33, 66, 0.4);
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.conditions {
+  color: #f65281;
+  font-weight: 400;
+}
+
+.temperature {
+  font-size: 80px;
+  margin-top: 20px;
+}
+
+.emo {
+  font-size: 40px;
+}
+
+.num {
+  font-weight: 900;
+}
+
+sup {
+  font-weight: 500;
+  font-size: 50%;
+}
